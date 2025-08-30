@@ -1046,24 +1046,23 @@ body {
 
   /* Secondary Navbar */
   .nav-bar-second {
-    padding: 8px;
+   
   }
 
   .nav-list-second {
     display: flex;
     flex-direction: row;
     gap: 8px;
+    width: 100%;
   }
 
   .nav-list-second li {
-    width: 100%;
+  
     text-align: center;
   }
 
   .nav-list-second li a {
     display: block;
-    width: 100%;
-    padding: 8px 0;
     font-size: 0.9rem;
   }
 
