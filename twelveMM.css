@@ -599,6 +599,31 @@ body {
   }
 }
 
+.media {
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 20px;
+  }
+
+  .media h1 {
+    margin-bottom: 30px;
+  }
+
+  .media i {
+    margin: 0 15px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
 /* Phones (≤ 600px) */
 @media screen and (max-width: 600px) {
   /* Top nav bar */
@@ -699,6 +724,28 @@ body {
     flex-direction: column;
     text-align: center;
     gap: 15px;
+  }
+
+  .media i {
+    font-size: 40px;
+    margin: 0 10px;
+  }
+
+  .footer-column h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer-links li,
+  .footer-links a {
+    font-size: 1rem;
+  }
+
+  #foot {
+    font-size: 1.3rem;
+  }
+
+  .footer-bottom p {
+    font-size: 1.2rem;
   }
 
   .footer-content {
